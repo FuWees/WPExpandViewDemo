@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DFExpandedWidgetView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DFExpandedWidgetView *expandedView = [[DFExpandedWidgetView alloc] initWithFrame:CGRectMake(20, 400, 100, 100) Titles:@[@"相似k线",@"历史回看",@"历史回看",@"历史回看",@"历史回看"]];
+    expandedView.onClickExpandedBtnBlock = ^(NSInteger index) {
+        NSLog(@"点击了索引%ld",index);
+    };
+    [self.view addSubview:expandedView];
 }
 
 

@@ -15,6 +15,7 @@
 		76326BE61F3449D0003DAB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76326BE41F3449D0003DAB3A /* LaunchScreen.storyboard */; };
 		76326BF11F3449D1003DAB3A /* WPExpandViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76326BF01F3449D1003DAB3A /* WPExpandViewDemoTests.m */; };
 		76326BFC1F3449D1003DAB3A /* WPExpandViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76326BFB1F3449D1003DAB3A /* WPExpandViewDemoUITests.m */; };
+		76326C0B1F3449EE003DAB3A /* DFExpandedWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76326C0A1F3449EE003DAB3A /* DFExpandedWidgetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		76326BF71F3449D1003DAB3A /* WPExpandViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPExpandViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76326BFB1F3449D1003DAB3A /* WPExpandViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPExpandViewDemoUITests.m; sourceTree = "<group>"; };
 		76326BFD1F3449D1003DAB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76326C091F3449EE003DAB3A /* DFExpandedWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFExpandedWidgetView.h; sourceTree = "<group>"; };
+		76326C0A1F3449EE003DAB3A /* DFExpandedWidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFExpandedWidgetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		76326BD51F3449D0003DAB3A /* WPExpandViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76326C091F3449EE003DAB3A /* DFExpandedWidgetView.h */,
+				76326C0A1F3449EE003DAB3A /* DFExpandedWidgetView.m */,
 				76326BD91F3449D0003DAB3A /* AppDelegate.h */,
 				76326BDA1F3449D0003DAB3A /* AppDelegate.m */,
 				76326BDC1F3449D0003DAB3A /* ViewController.h */,
@@ -279,6 +284,7 @@
 				76326BDE1F3449D0003DAB3A /* ViewController.m in Sources */,
 				76326BDB1F3449D0003DAB3A /* AppDelegate.m in Sources */,
 				76326BD81F3449D0003DAB3A /* main.m in Sources */,
+				76326C0B1F3449EE003DAB3A /* DFExpandedWidgetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
